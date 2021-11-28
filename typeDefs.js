@@ -27,8 +27,9 @@ const typeDefs = gql`
   }
 
   type Query {
-    users: [User]
-    checkins: [Checkin]
+    checkins: [Checkin!]
+    users: [User!]
+    user(id: ID!): User!
   }
 
   type Mutation {

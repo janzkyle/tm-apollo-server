@@ -3,42 +3,42 @@ export const checkins = [
     id: '1',
     hours: 1,
     tagId: '2',
-    activity: 'All Team Meeting',
+    activity: 'Daily Team Meeting',
     userId: '1',
   },
   {
     id: '2',
     hours: 1,
     tagId: '2',
-    activity: 'All Team Meeting',
+    activity: 'Daily Team Meeting',
     userId: '2',
   },
   {
     id: '3',
     hours: 1,
     tagId: '2',
-    activity: 'All Team Meeting',
+    activity: 'Daily Team Meeting',
     userId: '3',
   },
   {
     id: '4',
     hours: 1,
     tagId: '2',
-    activity: 'All Team Meeting',
+    activity: 'Daily Team Meeting',
     userId: '4',
   },
   {
     id: '5',
     hours: 1,
     tagId: '2',
-    activity: 'All Team Meeting',
+    activity: 'Daily Team Meeting',
     userId: '5',
   },
   {
     id: '6',
     hours: 1,
     tagId: '2',
-    activity: 'All Team Meeting',
+    activity: 'Daily Team Meeting',
     userId: '6',
   },
   {
@@ -66,21 +66,21 @@ export const checkins = [
     id: '11',
     hours: 2,
     tagId: '4',
-    activity: 'PANTS meeting',
+    activity: 'SHORTS meeting',
     userId: '2',
   },
   {
     id: '12',
     hours: 2,
     tagId: '4',
-    activity: 'PANTS meeting',
+    activity: 'SHORTS meeting',
     userId: '3',
   },
   {
     id: '13',
     hours: 2,
     tagId: '4',
-    activity: 'PANTS meeting',
+    activity: 'SHORTS meeting',
     userId: '4',
   },
   {
@@ -164,12 +164,12 @@ export const users = [
 export const tags = [
   {
     id: '1',
-    channelName: '#globe-1gie',
+    channelName: '#smart-1sie',
     accessType: 'PRIVATE',
   },
   {
     id: '2',
-    channelName: '#opsandadmin',
+    channelName: '#oopsandadmin',
     accessType: 'PUBLIC',
   },
   {
@@ -179,7 +179,7 @@ export const tags = [
   },
   {
     id: '4',
-    channelName: '#pants',
+    channelName: '#shorts',
     accessType: 'PUBLIC',
   }
 ];

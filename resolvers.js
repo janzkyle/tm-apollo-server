@@ -2,7 +2,9 @@ import { checkins, tags, users } from './mock.js';
 
 const resolvers = {
   Query: {
-    users: () => users
+    checkins: () => checkins,
+    users: () => users,
+    user: (_, { id }) => users.find(user => user.id === id),
   },
   User: {
     checkins: (parent) => checkins.filter(checkin => checkin.userId === parent.id)
