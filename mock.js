@@ -157,7 +157,7 @@ export const users = [
   },
   {
     id: '6',
-    name: 'Jill Doe',
+    name: 'Jam Doe',
   }
 ];
 
