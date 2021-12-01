@@ -15,7 +15,7 @@ const resolvers = {
       }
 
       const newCheckin = validateCheckinInput(checkin)
-      console.log(newCheckin);
+
       if (newCheckin.err) {
         throw new UserInputError(newCheckin.err);
       }
